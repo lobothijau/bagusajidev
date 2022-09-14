@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Under construction. Please visit my <a href="https://www.linkedin.com/in/baguzzzaji/">LinkedIn profile</a> to keep in touch.
+          Under construction. Please visit my <a style={{color: 'red'}} href="https://www.linkedin.com/in/baguzzzaji/">LinkedIn profile</a> to keep in touch.
         </p>
       </main>
 
