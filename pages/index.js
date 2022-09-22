@@ -97,7 +97,7 @@ export default function Home() {
         <ul className='flex flex-col items-start mt-5'>
         {
           contents[selectedIndex].map((content, index) => (
-            <li>{content.year} - <a href={content.url} target={'_blank'}>{content.title}</a></li>
+            <li key={index}>{content.year} - <a rel="noreferrer" href={content.url} target={'_blank'}>{content.title}</a></li>
           ))
         }
         </ul>
